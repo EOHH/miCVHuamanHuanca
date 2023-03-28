@@ -1,0 +1,152 @@
+body{
+    padding: 10px;
+    margin: 10px;
+    font-size: 1em;
+    font-family: sans-serif;
+    background-color: #00ffbf;
+    border: 4px solid rgb(14, 14, 5);
+    display: flex;
+    flex-direction: row;
+}
+.colum1{
+    text-align: center;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    background-color: 	#D3D3D3;
+    display: block;
+}
+.encabezado{
+    margin: 10px;
+}
+.encabezado h3{
+    color: 	#0080ff;
+}
+.encabezado h1{
+    font-weight: bold;
+}
+.encabezado h2{
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+.colum1 img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.encabezado p{
+    text-align: justify;
+}
+.contact p{
+    display:flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+.contact p img{
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+.contact a{
+    color: white;
+    font-weight: bold;
+    background-color: #0080ff;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0080ff;
+    border-radius: 5px; 
+}
+
+
+.languages p{
+    color: white;
+    font-weight: bold;
+    background-color: #0080ff;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0080ff;
+    border-radius: 0px 20px 20px 0px;
+}
+.a{
+    width: 100%;
+}
+.b{
+    width: 50%;
+}
+.c{
+    width: 70%;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: left;
+}
+.hobbies{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.x img{
+    width: 70px;
+    height: 70px;
+}
+@media (min-width:1200px){
+    #skills{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media (min-width:601px) and (max-width:1200px){
+    #skills{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen  and (max-width:600px){
+    #skills{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.colum2{
+    width: 72%;
+    background-color: #BEBEBE;
+    padding: 20px;
+}
+.colum2 h2{
+    padding: 20px;
+    font-weight: bold;
+}
+.colum2 h2 img{
+    width: 50px;
+    height: 50px;
+}
+.school{
+    display: flex;
+    flex-direction: row;
+}
+.academic1 li{
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    padding: 10px;
+}
+.academic h3{
+    font-weight: bold;
+    color: #0080ff;
+    padding: 10px;
+}
+.esperience p{
+    font-weight: bold;
+    text-align: justify;
+    padding: 10px;
+}
+.esperience li{
+    font-style: italic;
+    text-align: justify;
+    padding: 10px;
+}
